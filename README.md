@@ -19,7 +19,7 @@ splitfolders.ratio("Male and Female face dataset", output="output", seed=1337, r
 
 import matplotlib.pyplot as plt
 import matplotlib.image as mping
-img = mping.imread('harry.jpg')
+img = mping.imread('steve.jpg')
 plt.imshow(img)
 
 import tensorflow as tf
@@ -38,7 +38,7 @@ test = train_datagen.flow_from_directory("output/val/",target_size=(224,224),see
 
 from tensorflow.keras.preprocessing import image
 
-test_image = image.load_img('harry.jpg', target_size=(224,224))
+test_image = image.load_img('steve.jpg', target_size=(224,224))
 test_image = image.img_to_array(test_image)
 test_image = tf.expand_dims(test_image,axis=0)
 test_image = test_image/255.
