@@ -1,5 +1,5 @@
 # SA-C-GENDER-CLASSIFIER
-# Algorithm
+## Algorithm
 
 1.Import the necessary packages such as tensorflow, tensorflow hub, pandaa,matplotlib, and splitfloders.
 
@@ -90,5 +90,7 @@ pd.DataFrame(history.history).plot()
 
 
 DEMO VIDEO YOUTUBE LINK:
+https://youtu.be/NURevIS7_FI
 
-
+## RESULT: 
+The B0 Efficientnet NN model has been created for gender classification and has sucessfully predicted gender of the input images.
